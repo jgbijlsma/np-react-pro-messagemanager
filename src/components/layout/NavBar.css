@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink {
+  margin-right: 1rem;
+  color: #0051ff;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #0048cf;
+  text-decoration: underline;
+}

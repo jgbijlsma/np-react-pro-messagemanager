@@ -1,4 +1,4 @@
-import "./style/index.css";
+import "./style/common.css";
 import ReactDOM from "react-dom/client";
 import AppProvider from "./providers/AppProvider";
 import AppRouter from "./routers/AppRouter";

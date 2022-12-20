@@ -7,9 +7,9 @@ type MainLayoutProps = {
 
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
-    <>
+    <div className="container">
       <NavBar />
       {children}
-    </>
+    </div>
   );
 }

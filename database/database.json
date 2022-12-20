@@ -7,6 +7,18 @@
     {
       "username": "Joost",
       "id": 2
+    },
+    {
+      "username": "udffdsfsa",
+      "id": 3
+    },
+    {
+      "username": "Hello world",
+      "id": 4
+    },
+    {
+      "username": "test",
+      "id": 5
     }
   ],
   "messages": [
@@ -29,6 +41,16 @@
       "message": "Hoiii",
       "userId": 2,
       "id": 4
+    },
+    {
+      "message": "Hesoau",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "message": "Hello world",
+      "userId": 5,
+      "id": 6
     }
   ]
 }
