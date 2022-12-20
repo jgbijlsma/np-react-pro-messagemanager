@@ -1,17 +1,12 @@
-import { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { MessageType } from "../../../types/MessageType";
 import getMessagesForUser from "../api/getMessagesForUser";
 
 export function useGetMessagesForUser(userId: number): [MessageType] | null {
-  const [messages, setMessages] = useState<[MessageType]>();
+  const { data } = useQuery({
+    queryKey: ["messages"],
+    queryFn: () => getMessagesForUser(userId),
+  });
 
-  useEffect(() => {
-    getMessages(userId);
-    async function getMessages(userId: number) {
-      const m = await getMessagesForUser(userId);
-      setMessages(m);
-    }
-  }, []);
-
-  return messages ? messages : null;
+  return data ? data : null;
 }

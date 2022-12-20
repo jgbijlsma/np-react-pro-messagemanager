@@ -7,6 +7,14 @@
     {
       "username": "Tim",
       "id": 2
+    },
+    {
+      "username": "Testuser",
+      "id": 3
+    },
+    {
+      "username": "testuser",
+      "id": 4
     }
   ],
   "messages": [
@@ -34,6 +42,11 @@
       "message": "Joost",
       "userId": 1,
       "id": 5
+    },
+    {
+      "message": "Hello world",
+      "userId": 3,
+      "id": 6
     }
   ]
 }
