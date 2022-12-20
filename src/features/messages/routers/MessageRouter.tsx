@@ -1,0 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import NotFound from "../../../pages/NotFound";
+import MessageOverview from "../pages/MessageOverview";
+import NewMessage from "../pages/NewMessage";
+
+export default function MessageRouter() {
+  return (
+    <Routes>
+      <Route path="/" element={<MessageOverview />} />
+      <Route path="/new" element={<NewMessage />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  );
+}
