@@ -30,7 +30,10 @@ export default function NewMessage() {
       <main>
         <h1>New message</h1>
 
-        <form onSubmit={handleSubmit((data) => onSubmit(data))}>
+        <form
+          className="form"
+          onSubmit={handleSubmit((data) => onSubmit(data))}
+        >
           {errors.message && (
             <FormErrorMessage message={errors.message.message as string} />
           )}

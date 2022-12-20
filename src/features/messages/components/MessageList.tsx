@@ -1,8 +1,9 @@
 import { MessageType } from "../../../types/MessageType";
+import "./MessageList.css";
 
 export default function MessageList({ messages }: { messages: [MessageType] }) {
   return (
-    <ul>
+    <ul className="messageList">
       {messages.map((message, i) => {
         return <MessageListItem message={message} key={i} />;
       })}
@@ -12,7 +13,7 @@ export default function MessageList({ messages }: { messages: [MessageType] }) {
 
 function MessageListItem({ message }: { message: MessageType }) {
   return (
-    <li>
+    <li className="messageListItem">
       <h2>{message.username}</h2>
       <p>{message.message}</p>
     </li>

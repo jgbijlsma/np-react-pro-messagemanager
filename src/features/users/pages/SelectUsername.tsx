@@ -31,7 +31,10 @@ export default function SelectUsername() {
       <main>
         <h1>Use a username</h1>
 
-        <form onSubmit={handleSubmit((data) => onSubmit(data))}>
+        <form
+          className="form"
+          onSubmit={handleSubmit((data) => onSubmit(data))}
+        >
           {errors.username && (
             <FormErrorMessage message={errors.username.message as string} />
           )}

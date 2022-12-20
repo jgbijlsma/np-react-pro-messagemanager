@@ -1,0 +1,8 @@
+.formErrorMessage {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ff6363;
+  border-radius: 5px;
+  background: #ffbfbf;
+  color: red;
+}

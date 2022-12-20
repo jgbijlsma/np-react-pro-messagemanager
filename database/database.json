@@ -1,56 +1,39 @@
 {
   "users": [
     {
-      "username": "testuser",
+      "username": "Joost",
       "id": 1
     },
     {
-      "username": "Joost",
+      "username": "Tim",
       "id": 2
-    },
-    {
-      "username": "udffdsfsa",
-      "id": 3
-    },
-    {
-      "username": "Hello world",
-      "id": 4
-    },
-    {
-      "username": "test",
-      "id": 5
     }
   ],
   "messages": [
     {
-      "message": "test message",
+      "message": "Hello world",
       "userId": 1,
       "id": 1
     },
     {
-      "message": "another message\n",
+      "message": "Hey",
       "userId": 1,
       "id": 2
     },
     {
-      "message": "heeyy",
-      "userId": 1,
+      "message": "Hyy",
+      "userId": 2,
       "id": 3
     },
     {
-      "message": "Hoiii",
+      "message": "Hello",
       "userId": 2,
       "id": 4
     },
     {
-      "message": "Hesoau",
-      "userId": 2,
+      "message": "Joost",
+      "userId": 1,
       "id": 5
-    },
-    {
-      "message": "Hello world",
-      "userId": 5,
-      "id": 6
     }
   ]
 }
